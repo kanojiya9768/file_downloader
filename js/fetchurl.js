@@ -57,5 +57,8 @@ function fetch_url(url){
 
         //after getting an download error change the button value  to download
        document.getElementById('submit').value = 'download';
+        
+         //after getting an downloading error empty the input field
+        let input_url = document.getElementById('url').value = '';
     });
 }
